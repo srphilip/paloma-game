@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Letrinhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Encontre a Primeira Letra!</h1>
+        <div class="score-board">Acertos: <span id="score">0</span></div>
+    </header>
+
+    <main>
+        <div id="feedback-message">Vamos jogar!</div>
+        <section id="drop-zone-container"></section>
+        <section id="letters-container"></section>
+        <button id="restart-btn" class="hidden">Jogar Novamente</button>
+    </main>
+
+    <audio id="som-acerto" src="sounds/acerto.mp3"></audio>
+    <audio id="som-erro" src="sounds/erro.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
